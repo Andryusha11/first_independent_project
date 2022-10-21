@@ -10,12 +10,12 @@
 }
 
 .hide_desctop {
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     display: none;
   }
 }
 .hide_mobile {
-  @media (max-width: 399px) {
+  @media (max-width: 1399px) {
     display: none;
   }
 }

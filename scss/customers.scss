@@ -3,7 +3,7 @@
 .customers {
   display: flex;
   flex-direction: column;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     width: 1140px;
     margin: auto;
     display: flex;
@@ -15,7 +15,7 @@
   }
   &__row {
     display: flex;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       flex: 1;
       justify-content: space-between;
       &:first-child {
@@ -35,7 +35,7 @@
     &:last-child {
       border-right: none;
     }
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       border: none;
     }
   }

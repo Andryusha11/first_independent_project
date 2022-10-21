@@ -2,7 +2,7 @@
 
 .headline {
   width: 100%;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     position: relative;
     width: 1140px;
     margin: auto;
@@ -13,7 +13,7 @@
 
   &__content {
     margin: 35px 15px 33px;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       position: absolute;
       z-index: 1;
       margin: 0;
@@ -24,7 +24,7 @@
     font-size: 50px;
     line-height: 50px;
 
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       width: 754px;
       height: 165px;
       font-weight: 700;
@@ -41,7 +41,7 @@
     font-size: 24px;
     line-height: 34px;
 
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       width: 456px;
       height: 102px;
       font-size: 24px;
@@ -53,14 +53,14 @@
   &__actions {
     margin-top: 30px;
 
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       margin-top: 58px;
       display: flex;
     }
   }
   &__action-btn {
     width: 100%;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       width: 160px;
     }
   }
@@ -75,7 +75,7 @@
     border-radius: 2px;
     margin-top: 15px;
 
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       margin-left: 10px;
       width: 160px;
       margin-top: 0;
@@ -84,7 +84,7 @@
   &__banner {
     width: 100%;
     margin-bottom: 36px;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       position: relative;
       top: 0;
       right: -105px;

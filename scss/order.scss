@@ -3,7 +3,7 @@
   background-color: #f4f5f7;
   text-align: center;
 
-  @media (min-width: 1000px) {
+  @media (min-width: 1400px) {
     padding-top: 73px;
     padding-bottom: 72px;
     text-align: initial;
@@ -13,14 +13,14 @@
   }
 
   &__details {
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       max-width: 555px;
     }
   }
   &__illustration {
     max-width: 200px;
 
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       max-width: 269px;
       margin-right: 121px;
     }
@@ -34,7 +34,7 @@
     margin: 0;
     margin-top: 40px;
     text-align: center;
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       margin: 0;
       text-align: left;
     }
@@ -45,14 +45,14 @@
     line-height: 34px;
     margin: 0;
     margin-top: 18px;
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       margin-top: 12px;
       font-size: 22px;
       line-height: 32px;
     }
   }
   &__form {
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       display: flex;
       margin-top: 26px;
     }
@@ -67,7 +67,7 @@
     text-align: center;
     font-size: 18px;
     line-height: 13px;
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       margin: 0;
     }
 
@@ -79,10 +79,10 @@
   &__button {
     margin-top: 12px;
 
-    @media (max-width: 400px) {
+    @media (max-width: 1399px) {
       width: 100%;
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       margin: 0;
       margin-left: 10px;
       flex-shrink: 0;
@@ -93,7 +93,7 @@
     font-size: 14px;
     line-height: 22px;
     color: #2b292d99;
-    @media (min-width: 1000px) {
+    @media (min-width: 1400px) {
       margin-top: 10px;
     }
   }

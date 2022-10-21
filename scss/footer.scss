@@ -8,7 +8,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       width: 1140px;
       height: 338px;
       margin: 0 auto;
@@ -22,7 +22,7 @@
     opacity: 0.1;
     margin: 0;
     margin-top: 40px;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       margin: 0;
     }
   }
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 15px;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       height: 50px;
       flex-direction: row;
       width: 1140px;
@@ -46,7 +46,7 @@
     margin-top: 26px;
     color: #2b292d;
     opacity: 0.6;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       display: block;
     }
   }
@@ -60,7 +60,7 @@
   display: flex;
   justify-content: center;
 
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     justify-content: left;
     margin: 0;
     margin-top: 25px;
@@ -76,14 +76,14 @@
   margin-right: 15px;
   display: flex;
   flex-direction: column;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     flex-direction: row;
     margin-top: 60px;
     margin-left: auto;
   }
   &__column {
     margin-top: 30px;
-    @media (min-width: 400px) {
+    @media (min-width: 1400px) {
       margin-top: 0;
       margin-right: 29px;
     }
@@ -115,7 +115,7 @@
   line-height: 22px;
   font-size: 14px;
   margin-top: 30px;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     line-height: 50px;
     margin-top: 0;
   }
@@ -131,7 +131,7 @@
 .social-links {
   margin-top: 30px;
   margin-bottom: 23px;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     margin-left: auto;
     margin-bottom: 0;
   }
@@ -147,7 +147,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (min-width: 400px) {
+  @media (min-width: 1400px) {
     display: none;
   }
   &__image {
@@ -169,7 +169,7 @@
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 1399px) {
   .footer .logo {
     display: none;
   }
