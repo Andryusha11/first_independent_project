@@ -1,0 +1,21 @@
+.action-button {
+  width: 160px;
+  height: 48px;
+  background-color: #3040c4;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+}
+
+.hide_desctop {
+  @media (min-width: 400px) {
+    display: none;
+  }
+}
+.hide_mobile {
+  @media (max-width: 399px) {
+    display: none;
+  }
+}
