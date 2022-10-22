@@ -1,0 +1,131 @@
+.audience {
+  padding: 50px 15px;
+  background-color: #00a1c6;
+
+  @media (min-width: 1400px) {
+    margin: auto;
+    margin-top: 110px;
+    padding: 0;
+    width: 100%;
+  }
+  &__details {
+    @media (min-width: 1400px) {
+      max-width: 555px;
+      margin: 108px auto 0;
+    }
+  }
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+  }
+  &__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+    margin-top: 17px;
+    text-align: center;
+    @media (min-width: 1400px) {
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      margin-top: 24px;
+    }
+  }
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 18px;
+    text-align: center;
+    @media (min-width: 1400px) {
+      margin-top: 30px;
+    }
+  }
+  &__actions {
+    margin-top: 30px;
+    @media (min-width: 1400px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__actions-btn {
+    @media (max-width: 1399px) {
+      width: 100%;
+    }
+    &:last-child {
+      margin-top: 12px;
+
+      @media (min-width: 1400px) {
+        margin-top: 0;
+        margin-left: 10px;
+      }
+    }
+  }
+  &__list {
+    margin-top: 40px;
+    max-width: 1140px;
+    @media (min-width: 1400px) {
+      display: flex;
+      justify-content: space-between;
+      margin: 111px auto 110px;
+    }
+  }
+  &__card.user-card {
+    margin-top: 15px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    @media (min-width: 1400px) {
+      flex: 1;
+      margin-top: 0;
+    }
+  }
+}
+
+.user-card {
+  margin: 0;
+  padding: 22px 0 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #ffffff;
+  background-blend-mode: overlay, normal;
+  cursor: pointer;
+
+  @media (min-width: 1400px) {
+    max-width: 262px;
+  }
+
+  &:hover {
+    background: #3141c5;
+
+    figcaption {
+      color: #ffffff;
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+  &__caption {
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
