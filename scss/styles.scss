@@ -20,12 +20,12 @@ body {
 .page {
   width: 100%;
   overflow: hidden;
+  color: #2b292d;
   @media (min-width: 1400px) {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #2b292d;
   }
 }
