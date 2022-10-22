@@ -518,6 +518,7 @@
 @media (min-width: 1400px) {
   .order__details {
     max-width: 555px;
+    padding-top: 33px;
   }
 }
 .order__illustration {
