@@ -1,10 +1,10 @@
 .action-button {
   width: 160px;
   height: 48px;
-  background-color: #3040c4;
-  color: #fff;
   font-size: 18px;
   font-weight: 700;
+  background-color: #3040c4;
+  color: #fff;
   border: none;
   border-radius: 2px;
 }
@@ -34,17 +34,17 @@
 .header {
   height: 64px;
   width: 100%;
-  background-color: #fff;
   display: flex;
+  background-color: #fff;
 }
 @media (min-width: 1400px) {
   .header {
     width: 1140px;
     height: 62px;
-    margin: auto;
     display: flex;
-    background-color: #f3c6bd;
     align-items: center;
+    background-color: #f3c6bd;
+    margin: auto;
   }
 }
 .header__button {
@@ -57,11 +57,11 @@
 }
 .header__menu-button {
   width: 58px;
+  height: 100%;
+  background: transparent;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
-  height: 100%;
   margin-left: auto;
-  background: transparent;
 }
 @media (min-width: 1400px) {
   .header__menu-button {
@@ -116,17 +116,17 @@
 }
 @media (min-width: 1400px) {
   .navigation {
+    display: block;
     margin-left: auto;
     margin-top: 7px;
     margin-right: 75px;
-    display: block;
   }
 }
 .navigation__arrow {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-  display: inline-block;
   width: 8px;
   height: 5px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  display: inline-block;
   margin-left: 11px;
 }
 .navigation__item {
@@ -170,8 +170,8 @@
   .headline {
     position: relative;
     width: 1140px;
-    margin: auto;
     display: flex;
+    margin: auto;
     margin-top: 84px;
     padding-bottom: 77px;
   }
@@ -205,19 +205,19 @@
   }
 }
 .headline__description {
-  margin-top: 24px;
-  margin-bottom: 0;
   font-size: 24px;
   line-height: 34px;
+  margin-top: 24px;
+  margin-bottom: 0;
 }
 @media (min-width: 1400px) {
   .headline__description {
     width: 456px;
     height: 102px;
     font-size: 24px;
+    line-height: 34px;
     margin-top: 34px;
     margin-bottom: 0;
-    line-height: 34px;
   }
 }
 .headline__actions {
@@ -225,8 +225,8 @@
 }
 @media (min-width: 1400px) {
   .headline__actions {
-    margin-top: 58px;
     display: flex;
+    margin-top: 58px;
   }
 }
 .headline__action-btn {
@@ -250,8 +250,8 @@
 }
 @media (min-width: 1400px) {
   .headline__learn-more-btn {
-    margin-left: 10px;
     width: 160px;
+    margin-left: 10px;
     margin-top: 0;
   }
 }
@@ -272,9 +272,9 @@
 }
 
 .about {
-  padding: 46px 15px;
   width: 100%;
   background: #f4f5f7;
+  padding: 46px 15px;
 }
 @media (min-width: 1400px) {
   .about {
@@ -317,13 +317,13 @@
 @media (min-width: 1400px) {
   .customers {
     width: 1140px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
+    margin: auto;
   }
 }
 .customers__row {
@@ -341,12 +341,12 @@
 .customers__item {
   height: 94px;
   width: 107px;
-  border-bottom: 1px solid #e3e3e3;
-  border-right: 1px solid #e3e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
 }
 .customers__item:last-child {
   border-right: none;
@@ -383,12 +383,12 @@
 }
 
 .tip__title {
-  margin: 0;
-  margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
+  margin: 0;
+  margin-top: 17px;
 }
 
 .tip__description {
@@ -399,11 +399,11 @@
 }
 
 .tip__figure {
-  margin: 0;
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .tip__image {
@@ -484,10 +484,10 @@
   border-bottom: 3px solid #3142c6;
 }
 .features__advantage-item {
+  display: flex;
   border-bottom: 1px solid rgba(43, 41, 45, 0.1490196078);
   margin-top: 21px;
   padding-bottom: 22px;
-  display: flex;
 }
 .features__advantage-item-text {
   font-weight: 700;
@@ -501,15 +501,15 @@
 }
 
 .audience {
-  padding: 50px 15px;
   background: rgba(0, 161, 198, 0.0705882353);
+  padding: 50px 15px;
 }
 @media (min-width: 1400px) {
   .audience {
+    width: 100%;
     margin: auto;
     margin-top: 110px;
     padding: 0;
-    width: 100%;
   }
 }
 @media (min-width: 1400px) {
@@ -519,20 +519,20 @@
   }
 }
 .audience__title {
-  margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   text-align: center;
+  margin: 0;
 }
 .audience__subtitle {
-  margin: 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  margin-top: 17px;
   text-align: center;
+  margin: 0;
+  margin-top: 17px;
 }
 @media (min-width: 1400px) {
   .audience__subtitle {
@@ -545,9 +545,9 @@
 .audience__description {
   font-size: 24px;
   line-height: 34px;
+  text-align: center;
   margin: 0;
   margin-top: 18px;
-  text-align: center;
 }
 @media (min-width: 1400px) {
   .audience__description {
@@ -578,8 +578,8 @@
   }
 }
 .audience__list {
-  margin-top: 40px;
   max-width: 1140px;
+  margin-top: 40px;
 }
 @media (min-width: 1400px) {
   .audience__list {
@@ -602,8 +602,6 @@
 }
 
 .user-card {
-  margin: 0;
-  padding: 22px 0 33px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -612,6 +610,8 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   background-blend-mode: overlay, normal;
   cursor: pointer;
+  margin: 0;
+  padding: 22px 0 33px;
 }
 @media (min-width: 1400px) {
   .user-card {
@@ -628,26 +628,26 @@
   max-width: 100%;
 }
 .user-card__caption {
-  margin-top: 22px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
+  margin-top: 22px;
 }
 
 .order {
-  padding: 50px 15px;
   background-color: #f4f5f7;
   text-align: center;
+  padding: 50px 15px;
 }
 @media (min-width: 1400px) {
   .order {
-    padding-top: 73px;
-    padding-bottom: 72px;
-    text-align: initial;
     display: flex;
+    text-align: initial;
     justify-content: center;
     align-items: flex-start;
+    padding-top: 73px;
+    padding-bottom: 72px;
   }
 }
 @media (min-width: 1400px) {
@@ -670,14 +670,14 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
+  text-align: center;
   margin: 0;
   margin-top: 40px;
-  text-align: center;
 }
 @media (min-width: 1400px) {
   .order__title {
-    margin: 0;
     text-align: left;
+    margin: 0;
   }
 }
 .order__text {
@@ -688,9 +688,9 @@
 }
 @media (min-width: 1400px) {
   .order__text {
-    margin-top: 12px;
     font-size: 22px;
     line-height: 32px;
+    margin-top: 12px;
   }
 }
 @media (min-width: 1400px) {
@@ -700,16 +700,16 @@
   }
 }
 .order__email {
-  margin-top: 40px;
+  height: 48px;
+  width: 100%;
   background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  height: 48px;
-  width: 100%;
   text-align: center;
   font-size: 18px;
   line-height: 13px;
   padding: 0;
+  margin-top: 40px;
 }
 @media (min-width: 1400px) {
   .order__email {
@@ -749,27 +749,27 @@
 }
 
 .footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
 }
 .footer-navigation {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 @media (min-width: 1400px) {
   .footer-navigation {
     width: 1140px;
     height: 338px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
   }
 }
 .footer-line {
-  border-top: 1px solid #2b292d;
   width: 100%;
+  border-top: 1px solid #2b292d;
   opacity: 0.1;
   margin: 0;
   margin-top: 40px;
@@ -788,9 +788,9 @@
   .footer-links {
     height: 50px;
     flex-direction: row;
+    align-items: center;
     width: 1140px;
     margin: 0 auto;
-    align-items: center;
   }
 }
 .footer-description {
@@ -798,9 +798,9 @@
   line-height: 26px;
   font-size: 18px;
   width: 360px;
-  margin-top: 26px;
   color: #2b292d;
   opacity: 0.6;
+  margin-top: 26px;
 }
 @media (min-width: 1400px) {
   .footer-description {
@@ -813,9 +813,9 @@
 }
 
 .downloads {
-  margin: 25px 15px 0px;
   display: flex;
   justify-content: center;
+  margin: 25px 15px 0px;
 }
 @media (min-width: 1400px) {
   .downloads {
@@ -829,11 +829,11 @@
 }
 
 .additional-navigation {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
-  display: flex;
-  flex-direction: column;
 }
 @media (min-width: 1400px) {
   .additional-navigation {
@@ -866,10 +866,10 @@
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
-  margin: 0;
-  padding: 0;
   color: #2b292d;
   opacity: 0.6;
+  margin: 0;
+  padding: 0;
   margin-top: 18px;
 }
 

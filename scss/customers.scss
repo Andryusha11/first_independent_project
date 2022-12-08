@@ -1,17 +1,15 @@
-//  Customers
-
 .customers {
   display: flex;
   flex-direction: column;
   @media (min-width: 1400px) {
     width: 1140px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
+    margin: auto;
   }
   &__row {
     display: flex;
@@ -26,12 +24,12 @@
   &__item {
     height: 94px;
     width: 107px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
     &:last-child {
       border-right: none;
     }
