@@ -1,4 +1,4 @@
-# first_independent_project
+# foundation-project
 ## My project
 + HTML
 + CSS3
