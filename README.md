@@ -7,3 +7,5 @@
 + BEM methodology
 ## Author
 + Andrew Valchuk
+## Link
++ https://andryusha11.github.io/first_independent_project/
