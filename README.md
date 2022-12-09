@@ -8,4 +8,4 @@
 ## Author
 + Andrew Valchuk
 ## Link
-+ https://andryusha11.github.io/first_independent_project/
++ https://andryusha11.github.io/foundation-project/
