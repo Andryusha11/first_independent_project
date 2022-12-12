@@ -1,9 +1,11 @@
-# foundation-project
-## My project
-+ HTML
-+ CSS3
-+ Flexbox
-+ Sass(Scss)
-+ BEM methodology
+# Foundation
+
+- HTML
+- CSS3
+- Flexbox
+- Sass(Scss)
+- BEM methodology
+
 ## Author
-+ Andrew Valchuk
+
+- Andrew Valchuk
