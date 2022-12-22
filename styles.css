@@ -150,6 +150,7 @@
 @media (min-width: 1400px) {
   .header-logo {
     padding: 0;
+    margin-left: 15px;
   }
 }
 
