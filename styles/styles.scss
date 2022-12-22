@@ -21,6 +21,14 @@ body {
 button {
   cursor: pointer;
 }
+a {
+  color: #2b292d;
+  opacity: 0.7;
+  text-decoration: none;
+  &:hover {
+    opacity: 1;
+  }
+}
 
 .page {
   min-width: 100%;

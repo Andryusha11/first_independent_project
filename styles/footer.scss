@@ -139,7 +139,29 @@
     &:first-child {
       margin-left: 0;
     }
+    &-icon {
+    }
   }
+}
+.twitter {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
+}
+
+.facebook {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png);
+}
+
+.linkedin {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
 }
 .logo-vertical {
   display: flex;
