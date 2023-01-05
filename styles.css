@@ -506,8 +506,8 @@
   .audience {
     width: 100%;
     margin: auto;
+    margin-top: 103px;
     padding: 0;
-    padding-top: 110px;
   }
 }
 @media (min-width: 1400px) {
@@ -831,7 +831,7 @@
 .additional-navigation {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -841,6 +841,9 @@
     margin-top: 60px;
     margin-left: auto;
   }
+}
+.additional-navigation__column {
+  margin-top: 30px;
 }
 @media (min-width: 1400px) {
   .additional-navigation__column {
@@ -968,22 +971,18 @@ button {
 
 a {
   color: #2b292d;
-  opacity: 0.7;
   text-decoration: none;
-}
-a:hover {
-  opacity: 1;
 }
 
 .page {
   min-width: 100%;
-  overflow: hidden;
   color: #2b292d;
 }
 @media (min-width: 1400px) {
   .page {
-    width: 1400px;
+    min-width: 100%;
     min-height: 100vh;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: auto;
